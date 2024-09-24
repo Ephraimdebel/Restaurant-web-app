@@ -1,0 +1,9 @@
+.banner{
+    background-image: url("https://radiustheme.com/demo/wordpress/themes/panpie/wp-content/themes/panpie/assets/img/banner.png");
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* object-fit: cover; */
+}
