@@ -1,15 +1,15 @@
 .header__container{
-    background-color: #F4ECDE;
+    background-color: transparent;
     position: sticky;
     top: 0;
-    z-index: 999;
+    /* z-index: 999; */
 
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 19px;
     max-width: 1000px;
     place-items: center;
     margin-left: auto;
@@ -24,8 +24,15 @@
 }
 .menus{
 font-size: 20px;}
-
+.cart{
+    background-color: #FFCC19;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+}
 .header__black{
-    background-color: transparent;
-    box-shadow: 2px solid rgba(0, 0, 0, 0.3);
+    background-color: #F4ECDE;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+
 }
