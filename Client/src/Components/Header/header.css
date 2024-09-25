@@ -34,5 +34,6 @@ font-size: 20px;}
     background-color: #F4ECDE;
     box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
+    z-index: 999;
 
 }

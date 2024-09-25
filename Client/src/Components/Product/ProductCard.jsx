@@ -10,7 +10,7 @@ function ProductCard({ image, title, price,desc }) {
         return description;
     };
     return (
-        <div className="product-card">
+        <div className="product_card">
             <img className="product-image" src={image} alt={title} />
             <h3 className="product-name">{title}</h3>
             <p>

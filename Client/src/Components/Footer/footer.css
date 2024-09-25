@@ -1,0 +1,25 @@
+.footer_container{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    place-items: center;
+}
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    text-align: center;
+
+}
+.footer_icons svg{
+    
+        border: 1px solid #fff; /* Width, style, and color */
+        border-radius: 50%;
+        padding: 3px;
+    
+    
+}
+.coyright{
+    padding-top: 10px;
+    text-align: center;
+}
